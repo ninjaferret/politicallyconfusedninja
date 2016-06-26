@@ -3,6 +3,16 @@
     font-size: 12pt;
 }
 
+em {
+    color: #880000;
+    text-decoration: italic;
+}
+
+bold {
+    color: #880000;
+    font-weight: bold;
+}
+
 .layout {
     position: relative;
     width: 70em;
@@ -163,6 +173,8 @@
     margin: 0;
     text-align: justify;
 }
+
+
 
 @media all and (max-width: 72em) {
     .layout {
