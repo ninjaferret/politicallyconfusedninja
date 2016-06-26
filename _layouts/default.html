@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An exploration of UK politics">
+    <meta name="keywords" content="UK, politics, political, government, MP">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+    <link href="/assets/stylesheets/Site.css" rel="stylesheet" type="text/css" />
+    <title>Politically Confused Ninja {% if page.title %}: - {{ page.title }} {% endif %}</title>
+   </head>
+    <body>
+        <section class="layout">
+            <header class="page-header">
+                <div class="page-title">
+                    <a href="/" title="Go to home page" class="logo"><img src="/assets/images/logo-simple.png" alt="Politically Confused Ninja Logo" title="Politically Confused Ninja" /></a>
+                </div>
+                <div class="page-menu">
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <a href="http://blog.politicallyconfused.ninja" title="Go to the Politically Confused Ninja blog">Blog&nbsp;</a>
+                        </li>
+                        <li class="menu-item">
+                            Articles
+                        </li>
+                        <li class="menu-item">
+                            Contact
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <div class="content-layout">
+                <section class="content">
+                    {% if page.title %}
+					<h2>{{ page.title }}</h2>
+					{% endif %}
+
+					{{ content }}
+                </section>
+<!--                <section class="page-sidebar">
+                    <a class="twitter-timeline" href="https://twitter.com/aconfusedninja" data-widget-id="479408142074130432">Tweets by @aconfusedninja</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                </section>-->
+            </div>
+            <footer class="page-footer">
+                <p>&copy; 2016 - Ian Johnson</p>
+            </footer>
+        </section>
+
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-52123414-2', 'politicallyconfused.ninja');
+          ga('send', 'pageview');
+
+        </script>
+    </body>
+</html>

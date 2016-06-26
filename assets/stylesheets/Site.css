@@ -1,0 +1,195 @@
+﻿body {
+    font-family: Roboto, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 12pt;
+}
+
+.layout {
+    position: relative;
+    width: 70em;
+    margin: auto;
+}
+
+.page-header {
+    font-family: 'Bangers', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    border-bottom: 4px solid red;
+
+}
+
+.page-title {
+    display: inline-block;
+    vertical-align: middle;
+    color: blue;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 1em;
+}
+
+.page-title a {
+    border: 0;
+    text-decoration: none;
+}
+
+.logo img {
+    border: 0;
+    text-decoration: none;
+}
+
+.logo {
+    border: none;
+    text-decoration: none;
+}
+
+.page-menu {
+    display: inline-block;
+    font-weight: bold;
+    color: red;
+}
+
+.page-menu a {
+    color: red;
+    text-decoration: none;
+}
+
+.page-menu a:visited {
+    color: red;
+    text-decoration: none;
+}
+
+.page-menu a:hover {
+    color: orange;   
+}
+
+
+.content-layout{
+    position: relative;
+    padding: 1em 0;
+}
+
+.page-sidebar {
+    position: absolute;
+    display: inline-block;
+    width: 20em;
+    right: 0;
+    top: 2em;
+}
+
+.menu {
+    list-style: none;
+    list-style-position: inherit;
+    padding-left: 0;
+}
+
+.menu-item {
+    display: inline-block;
+    color: silver;
+    font-size: 3em;
+    line-height: 2.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+.content {
+    display: block;
+}
+
+.content h1,
+.content h2,
+.content h3 {
+    font-family: 'Bangers', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: normal;
+    color: blue;
+}
+
+.content h1 {
+    font-size: 2em;
+    margin: 1em 0;
+}
+
+.content h2 {
+    font-size: 1.75em;
+}
+
+.content h3 {
+    font-size: 1.5em;
+    font-style: normal;
+}
+
+.content h1 em,
+.content h2 em,
+.content h3 em {
+    font-style: normal;
+}
+
+.content p {
+    text-align: justify;
+}
+
+.content a {
+    color: red;
+}
+
+.content a:visited {
+    color: red;
+}
+
+.content a:hover {
+    color: orange;
+}
+
+.content blockquote {
+    color: black;
+    background-color: #ddffdd;
+    border-left: 2px solid green;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-style: italic;
+
+}
+
+.page-footer {
+    font-size: small;
+    font-weight: bold;
+    border-top: 4px solid red;
+    padding: 1em 0.5em;
+}
+
+.page-footer p {
+    margin: 0;
+    text-align: justify;
+}
+
+@media all and (max-width: 72em) {
+    .layout {
+        width: auto;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .menu-item {
+        line-height: 1em;
+        margin-left: 0;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    
+}
+
+@media all and (max-width: 50em) {
+    .content {
+        margin: auto;
+    }
+
+    .page-sidebar {
+        position: static;
+        display: block;
+    }
+}
