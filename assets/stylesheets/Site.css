@@ -103,11 +103,13 @@ strong {
 
 .content {
     display: block;
+    margin-right: 22em;
 }
 
 .content h1,
 .content h2,
-.content h3 {
+.content h3,
+.content h4 {
     font-family: 'Bangers', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: normal;
     color: blue;
@@ -124,6 +126,11 @@ strong {
 
 .content h3 {
     font-size: 1.5em;
+    font-style: normal;
+}
+
+.content h4 {
+    font-size: 1.2em;
     font-style: normal;
 }
 
