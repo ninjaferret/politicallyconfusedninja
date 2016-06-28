@@ -16,6 +16,10 @@ strong {
     font-weight: bold;
 }
 
+q {
+    color: #880000;
+}
+
 .layout {
     position: relative;
     width: 70em;
