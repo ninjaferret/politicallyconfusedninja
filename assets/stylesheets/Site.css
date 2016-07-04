@@ -122,7 +122,11 @@ hr{
 .content h1,
 .content h2,
 .content h3,
-.content h4 {
+.content h4,
+.social-media h1,
+.social-media h2,
+.social-media h3,
+.social-media h4 {
     font-family: 'Bangers', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: normal;
     color: blue;
@@ -142,7 +146,8 @@ hr{
     font-style: normal;
 }
 
-.content h4 {
+.content h4,
+.social-media h4 {
     font-size: 1.2em;
     font-style: normal;
 }
